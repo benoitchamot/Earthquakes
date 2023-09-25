@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+  background-color: #3B122B;  
+}
+
+#title h1 {
+  font: 32px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#title h2 {
+  font: 16px Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#title select {
+  font: 16px Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+  margin: 10px;
+}
+
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  height: 90%;
+  width: 90%;
+}
+
+#footer {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+  background-color: #3B122B;  
+}
+
+#footer p {
+  font: 10px Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+}
+
+#footer a {
+  color: white;
+  padding-bottom: 10px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+/* CSS from the leaflet-choropleth documentation */
+.legend {
+  color: #555;
+  padding: 6px 8px;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+.legend li {
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+  font: 10px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.legend h1 {
+  font: 16px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}

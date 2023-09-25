@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leaflet Step-1</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+
+<body>
+  <div id="title">
+    <h1>Eartquakes</h1>
+    <h2>Display the latest earthquakes measured around the globe.</h2>
+    <select onchange="updateDashboard(this.value)">
+      <option value = "data_7days">Last 7 days</option>
+      <option value = "data_30days">Last 30 days</option>
+    </select>
+  </div>
+
+  <!-- The div that holds our map -->
+  <div id="map">
+    <h1 style="text-align: center;">LOADING DATA...</h1>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <p>Data source: <a target="_blank" href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">USGS GeoJSON Feed</a>.</p>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+  <!-- D3 JavaScript -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="Leaflet-Part-2/data.js"></script>
+  <script type="text/javascript" src="static/js/logic.js"></script>
+</body>
+
+</html>
