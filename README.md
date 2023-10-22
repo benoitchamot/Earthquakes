@@ -1,5 +1,5 @@
-# leaflet-challenge
-Repository for Monash University Bootcamp Module 15
+# Earthquakes
+Display the latest earthquakes measured around the globe.
 
 ## File structure
 - `index.html` is the HTML page of the dashboard (open it to see the dashboard)
